@@ -1,0 +1,26 @@
+GET http://localhost:3003/ping
+###
+
+GET http://localhost:3003/bands
+###
+
+
+POST http://localhost:3003/bands
+Content-Type: application/json
+
+{
+    "id": "b002",
+    "name": "SPC"
+
+}
+###
+
+PUT http://localhost:3003/bands/b001
+Content-Type: application/json
+
+{
+    "newId": "b003",
+    "neName":"SoPraContrariar"
+
+}
+###
